@@ -187,58 +187,29 @@ text-align: left;
 }
 
 
-/* From cssbuttons.io by @kirzin */
-button {
+/* ? */
 
-    text-decoration:none;
-    position: absolute;
+   /* From cssbuttons.io by @Custyyyy */
+#btn-translate {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: #d5f365;
     border: none;
-    font-size: 15px;
     font-family: inherit;
-    color: #fff;
-    /* width: 10em; */
-    height: 2em;
-    line-height: 2em;
-    /* text-align: center; */
-    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
-    background-size: 300%;
-    border-radius: 30px;
-    z-index: 1;
-   }
-   
-   button:hover {
-    animation: ani 8s linear infinite;
-    border: none;
-   }
-   
-   @keyframes ani {
-    0% {
-     background-position: 0%;
-    }
-   
-    100% {
-     /* background-position: 400%; */
-    }
-   }
-   
-   button:before {
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    z-index: -1;
-    background: linear-gradient(90deg,#dde00d,#18c953,#e49a12,#f40303);
-    background-size: 400%;
-    border-radius: 35px;
+    text-align: center;
+    cursor: pointer;
     transition: 1s;
+    margin-bottom: 0%;
    }
    
-   button:hover::before {
-    filter: blur(20px);
+   #btn-translate:hover {
+    box-shadow: 7px 5px 56px -14px #C3D900;
    }
    
-   button:active {
-    background: linear-gradient(32deg,#dde00d,#18c953,#ffeb3b,#f40303);
+   #btn-translate:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #C3D900;
    }
