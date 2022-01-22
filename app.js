@@ -1,7 +1,7 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-Input");
 var txtOutput = document.querySelector("#txt-Output");
-var serverUrl = "https://api.funtranslations.com/translate/yoda.json";
+var serverUrl = "https://api.funtranslations.com/translate/minion.json";
 
 function getTranslationUrl(text) {
     return serverUrl + "?" + "text=" + text;
